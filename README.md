@@ -9,6 +9,7 @@
 -	Read: Get request that is asserted using a response assertion (Status 200).
 -	Update: Put request that takes the id recovered from the create method and updates the task/list. As it implies us sending data in a JSON format a Header manager is included within the request. A JSON assertion is used to make sure that the update has worked.
 -	Delete: Delete request that takes as input the id recovered from the create method and deletes a list/task. In order to check that the request has worked, a response assertion (Status 204) is used.
+
 **Timers** We have used constant timers to represent the time a user would spend before each task (e.g.: In case of deleting it cannot be longer than a second, however, updating a task can take anywhere from 5 to 20 seconds)
 
 ## HTML Results: 
